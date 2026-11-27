@@ -1,0 +1,12 @@
+# Core — needed for lessons 01 and 02 and all --simulate modes
+langchain-core
+langgraph
+python-dotenv
+
+# Real providers — install only the one you switch on in .env
+langchain-openai        # OpenAI and Azure OpenAI
+langchain-aws           # AWS Bedrock
+
+# Lesson 03 real versions (the --simulate modes need nothing extra)
+# crewai
+# pyautogen
